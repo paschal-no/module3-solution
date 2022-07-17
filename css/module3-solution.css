@@ -1,0 +1,98 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    border: 0;
+}
+/** Header **/
+#header-nav {
+    background: #5e5e5e;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.7em;
+    text-transform: none;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 20px;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list p.text-center {
+    color: solid black;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #f5f5f5;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -25px;
+}
+#nav-list li p {
+    background: #f5f5f5;
+}
+
+/* HOME PAGE */
+
+#home-tiles .item-text {
+    background: #5e5e5e;
+    padding: 10px;
+}
+#home-tiles h2.text-center {
+    font-weight: bold;
+    height: 80px;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* END OF HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+    }
+
+    #collapsable-nav p { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+
+}
